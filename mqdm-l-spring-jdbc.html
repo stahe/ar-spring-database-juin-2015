@@ -1528,7 +1528,7 @@
 <p><a id="refheading1051982082896917"></a></p>
 <h1 id="4-spring-jdbc">4. <span style="color: #365f91">مقدمة إلى <bdi dir="ltr" class="odt-ltr-term">Spring JDBC</bdi></span></h1>
 <p>في هذا الفصل، سنقوم بفحص البنية التالية:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000043C000000F7BDC78FB1.png" width="542" height="124" style="display:inline-block; margin:4px;width:14.34cm;height:3.268cm;" class="odt-zoomable" data-zoom-src="images/100000000000043C000000F7BDC78FB1.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000043C000000F7BDC78FB1.png" width="542" height="124" style="display:inline-block; margin:4px;width:14.34cm;height:3.268cm;" class="odt-zoomable" data-zoom-src="images/100000000000043C000000F7BDC78FB1.png" /></td></tr></table>
 
 <p>هذه هي نفس البنية السابقة. سنقوم بإدخال تغييرين:</p>
 <ul>
@@ -1540,40 +1540,40 @@
 <p><a id="refheading1052002082896917"></a></p>
 <h2 id="41">4.1. <span style="color: #4f81bd">إعداد بيئة التطوير</span></h2>
 <p>باستخدام <bdi dir="ltr" class="odt-ltr-term">STS</bdi>، قم باستيراد مشروع [<bdi dir="ltr" class="odt-ltr-term">spring-jdbc-04</bdi>] الموجود في المجلد [&lt;<bdi dir="ltr" class="odt-ltr-term">examples</bdi>&gt;/<bdi dir="ltr" class="odt-ltr-term">spring-database-generic/spring-jdbc</bdi>]</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000004CE000001ABDBE1B138.png" width="615" height="214" style="display:inline-block; margin:4px;width:16.272cm;height:5.65cm;" class="odt-zoomable" data-zoom-src="images/10000000000004CE000001ABDBE1B138.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000004CE000001ABDBE1B138.png" width="615" height="214" style="display:inline-block; margin:4px;width:16.272cm;height:5.65cm;" class="odt-zoomable" data-zoom-src="images/10000000000004CE000001ABDBE1B138.png" /></td></tr></table>
 
 <p>بالإضافة إلى ذلك، نحتاج إلى إنشاء قاعدة بيانات <bdi dir="ltr" class="odt-ltr-term">MySQL</bdi> جديدة باستخدام عميل [<bdi dir="ltr" class="odt-ltr-term">MyManager</bdi>] (انظر <a href="#refheading857211326982365"><u><span style="color: #0563c1">القسم 3.1</span></u></a>):</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000035F000001B37A78E127.png" width="432" height="218" style="display:inline-block; margin:4px;width:11.418cm;height:5.756cm;" class="odt-zoomable" data-zoom-src="images/100000000000035F000001B37A78E127.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000035F000001B37A78E127.png" width="432" height="218" style="display:inline-block; margin:4px;width:11.418cm;height:5.756cm;" class="odt-zoomable" data-zoom-src="images/100000000000035F000001B37A78E127.png" /></td></tr></table>
 
 <ul>
   <li>في [3]، تستخدم الأمثلة التالية قاعدة بيانات <bdi dir="ltr" class="odt-ltr-term">MySQL</bdi> باسم [<bdi dir="ltr" class="odt-ltr-term">dbproduitscategories</bdi>]؛
   </li>
 </ul>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000004FC000001F96CBFDC51.png" width="638" height="253" style="display:inline-block; margin:4px;width:16.88cm;height:6.682cm;" class="odt-zoomable" data-zoom-src="images/10000000000004FC000001F96CBFDC51.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000004FC000001F96CBFDC51.png" width="638" height="253" style="display:inline-block; margin:4px;width:16.88cm;height:6.682cm;" class="odt-zoomable" data-zoom-src="images/10000000000004FC000001F96CBFDC51.png" /></td></tr></table>
 
 <ul>
   <li>في [9]، أدخل كلمة مرور المستخدم <i>الجذر </i>(كلمة المرور هذه هي <i>&quot;<bdi dir="ltr" class="odt-ltr-term">root</bdi>&quot; </i>في هذا المستند)؛
   </li>
 </ul>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000004F5000002992375CC9D.png" width="635" height="333" style="display:inline-block; margin:4px;width:16.789cm;height:8.798cm;" class="odt-zoomable" data-zoom-src="images/10000000000004F5000002992375CC9D.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000004F5000002992375CC9D.png" width="635" height="333" style="display:inline-block; margin:4px;width:16.789cm;height:8.798cm;" class="odt-zoomable" data-zoom-src="images/10000000000004F5000002992375CC9D.png" /></td></tr></table>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000004DF0000024C183C23F9.png" width="624" height="294" style="display:inline-block; margin:4px;width:16.498cm;height:7.779cm;" class="odt-zoomable" data-zoom-src="images/10000000000004DF0000024C183C23F9.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000004DF0000024C183C23F9.png" width="624" height="294" style="display:inline-block; margin:4px;width:16.498cm;height:7.779cm;" class="odt-zoomable" data-zoom-src="images/10000000000004DF0000024C183C23F9.png" /></td></tr></table>
 
 <ul>
   <li>في [18]، تم إنشاء قاعدة البيانات [<bdi dir="ltr" class="odt-ltr-term">dbproduitscategories</bdi>] فارغة. نقوم بإنشاء الجداول وتعبئتها باستخدام نص <bdi dir="ltr" class="odt-ltr-term">SQL</bdi> [19-20]؛
   </li>
 </ul>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000004B30000022D5BCA79DC.png" width="602" height="279" style="display:inline-block; margin:4px;width:15.916cm;height:7.37cm;" class="odt-zoomable" data-zoom-src="images/10000000000004B30000022D5BCA79DC.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000004B30000022D5BCA79DC.png" width="602" height="279" style="display:inline-block; margin:4px;width:15.916cm;height:7.37cm;" class="odt-zoomable" data-zoom-src="images/10000000000004B30000022D5BCA79DC.png" /></td></tr></table>
 
 <ul>
   <li>في [21]، انتقل إلى المجلد [&lt;<bdi dir="ltr" class="odt-ltr-term">examples</bdi>&gt;/<bdi dir="ltr" class="odt-ltr-term">spring-database-config/mysql/databases</bdi>]؛
   </li>
 </ul>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000050F000002631F50FE15.png" width="648" height="306" style="display:inline-block; margin:4px;width:17.133cm;height:8.084cm;" class="odt-zoomable" data-zoom-src="images/100000000000050F000002631F50FE15.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000050F000002631F50FE15.png" width="648" height="306" style="display:inline-block; margin:4px;width:17.133cm;height:8.084cm;" class="odt-zoomable" data-zoom-src="images/100000000000050F000002631F50FE15.png" /></td></tr></table>
 
 <ul>
   <li>في [25]، تأكد من أنك في قاعدة البيانات [<bdi dir="ltr" class="odt-ltr-term">dbproduitscategories</bdi>] وليس في قاعدة البيانات [<bdi dir="ltr" class="odt-ltr-term">dbproduits</bdi>]؛
@@ -1585,7 +1585,7 @@
 <h2 id="42-dbproduitscategories">4.2. <span style="color: #4f81bd">قاعدة البيانات [<bdi dir="ltr" class="odt-ltr-term">dbproduitscategories</bdi>]</span></h2>
 <p>قاعدة البيانات [<bdi dir="ltr" class="odt-ltr-term">dbproduitscategories</bdi>] هي امتداد لقاعدة البيانات [<bdi dir="ltr" class="odt-ltr-term">dbproduits</bdi>] التي تمت مناقشتها سابقًا. في حين أن المنتج في الجدول [<bdi dir="ltr" class="odt-ltr-term">PRODUITS</bdi>] كان له فئة محددة برقم لا يحمل أي معنى معين، فإن هذا الرقم هنا سيكون مفتاحًا خارجيًا في الجدول [<bdi dir="ltr" class="odt-ltr-term">CATEGORIES</bdi>].</p>
 <p>جدول [<bdi dir="ltr" class="odt-ltr-term">PRODUCTS</bdi>] هو كما يلي:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/1000000000000534000001691C3D8B51.png" width="666" height="181" style="display:inline-block; margin:4px;width:17.621cm;height:4.777cm;" class="odt-zoomable" data-zoom-src="images/1000000000000534000001691C3D8B51.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/1000000000000534000001691C3D8B51.png" width="666" height="181" style="display:inline-block; margin:4px;width:17.621cm;height:4.777cm;" class="odt-zoomable" data-zoom-src="images/1000000000000534000001691C3D8B51.png" /></td></tr></table>
 
 <ul>
   <li>[<bdi dir="ltr" class="odt-ltr-term">ID</bdi>]: المفتاح الأساسي المتزايد تلقائيًا لجدول [<bdi dir="ltr" class="odt-ltr-term">PRODUCTS</bdi>]؛
@@ -1602,7 +1602,7 @@
   </li>
 </ul>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/1000000000000476000000E54B6752A6.png" width="571" height="115" style="display:inline-block; margin:4px;width:15.108cm;height:3.03cm;" class="odt-zoomable" data-zoom-src="images/1000000000000476000000E54B6752A6.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/1000000000000476000000E54B6752A6.png" width="571" height="115" style="display:inline-block; margin:4px;width:15.108cm;height:3.03cm;" class="odt-zoomable" data-zoom-src="images/1000000000000476000000E54B6752A6.png" /></td></tr></table>
 
 <ul>
   <li>في [1-3]، المفتاح الخارجي [<bdi dir="ltr" class="odt-ltr-term">CATEGORIE_ID</bdi>] لجدول [<bdi dir="ltr" class="odt-ltr-term">PRODUITS</bdi>]. وهو يشير إلى عمود [<bdi dir="ltr" class="odt-ltr-term">ID</bdi>] في جدول [<bdi dir="ltr" class="odt-ltr-term">CATEGORIES</bdi>] [4-5]؛
@@ -1612,7 +1612,7 @@
 </ul>
 
 <p>جدول [<bdi dir="ltr" class="odt-ltr-term">CATEGORIES</bdi>] كما يلي:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000037D000000F56249B718.png" width="447" height="123" style="display:inline-block; margin:4px;width:11.815cm;height:3.242cm;" class="odt-zoomable" data-zoom-src="images/100000000000037D000000F56249B718.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000037D000000F56249B718.png" width="447" height="123" style="display:inline-block; margin:4px;width:11.815cm;height:3.242cm;" class="odt-zoomable" data-zoom-src="images/100000000000037D000000F56249B718.png" /></td></tr></table>
 
 <ul>
   <li>[<bdi dir="ltr" class="odt-ltr-term">ID</bdi>]: مفتاح أساسي متزايد تلقائيًا؛
@@ -1624,13 +1624,13 @@
 </ul>
 <p><a id="refheading1052042082896917"></a></p>
 <h2 id="43-eclipse">4.3. <span style="color: #4f81bd"><span style="color: #4f81bd">مشروع <bdi dir="ltr" class="odt-ltr-term">Eclipse</bdi></span></span></h2>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000000F200000103978867AE.png" width="169" height="181" style="display:inline-block; margin:4px;width:4.48cm;height:4.794cm;" class="odt-zoomable" data-zoom-src="images/10000000000000F200000103978867AE.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000000F200000103978867AE.png" width="169" height="181" style="display:inline-block; margin:4px;width:4.48cm;height:4.794cm;" class="odt-zoomable" data-zoom-src="images/10000000000000F200000103978867AE.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
 
 <p>يُنفذ مشروع [<bdi dir="ltr" class="odt-ltr-term">spring-jdbc-04</bdi>] البنية التالية:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/1000000000000446000000F79E7BC2D0.png" width="547" height="124" style="display:inline-block; margin:4px;width:14.473cm;height:3.268cm;" class="odt-zoomable" data-zoom-src="images/1000000000000446000000F79E7BC2D0.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/1000000000000446000000F79E7BC2D0.png" width="547" height="124" style="display:inline-block; margin:4px;width:14.473cm;height:3.268cm;" class="odt-zoomable" data-zoom-src="images/1000000000000446000000F79E7BC2D0.png" /></td></tr></table>
 
 <p>مشروع [<bdi dir="ltr" class="odt-ltr-term">spring-jdbc-04</bdi>] هو مشروع <bdi dir="ltr" class="odt-ltr-term">Maven</bdi> تم تكوينه بواسطة ملف [<bdi dir="ltr" class="odt-ltr-term">pom.xml</bdi>] التالي:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000000EB000000D11CFD4755.png" width="164" height="146" style="display:inline-block; margin:4px;width:4.35cm;height:3.868cm;" class="odt-zoomable" data-zoom-src="images/10000000000000EB000000D11CFD4755.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000000EB000000D11CFD4755.png" width="164" height="146" style="display:inline-block; margin:4px;width:4.35cm;height:3.868cm;" class="odt-zoomable" data-zoom-src="images/10000000000000EB000000D11CFD4755.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
 
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-xml">
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;?</span><span style="color:#3f7f7f">xml</span><span style="color:#000000"> </span><span style="color:#7f007f">version</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;1.0&quot;</span><span style="color:#000000"> </span><span style="color:#7f007f">encoding</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;UTF-8&quot;</span><span style="color:#008080">?&gt;</span></span></span>
@@ -1693,11 +1693,11 @@
 </ul>
 
 <p>في النهاية، تكون التبعيات كما يلي:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000000E900000092A077A8B0.png" width="163" height="102" style="display:inline-block; margin:4px;width:4.309cm;height:2.701cm;" class="odt-zoomable" data-zoom-src="images/10000000000000E900000092A077A8B0.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000000E900000092A077A8B0.png" width="163" height="102" style="display:inline-block; margin:4px;width:4.309cm;height:2.701cm;" class="odt-zoomable" data-zoom-src="images/10000000000000E900000092A077A8B0.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
 
 <p><a id="refheading925761142777426"></a></p>
 <h2 id="44">4.4. <span style="color: #4f81bd">إعدادات الربيع</span></h2>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000000E80000010D53068F3A.png" width="163" height="188" style="display:inline-block; margin:4px;width:4.3cm;height:4.987cm;" class="odt-zoomable" data-zoom-src="images/10000000000000E80000010D53068F3A.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000000E80000010D53068F3A.png" width="163" height="188" style="display:inline-block; margin:4px;width:4.3cm;height:4.987cm;" class="odt-zoomable" data-zoom-src="images/10000000000000E80000010D53068F3A.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
 
 <p>فيما يلي فئة [<bdi dir="ltr" class="odt-ltr-term">AppConfig</bdi>] التي تهيئ مشروع <bdi dir="ltr" class="odt-ltr-term">Spring:</bdi></p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-java">
@@ -1797,7 +1797,7 @@
 </ul>
 <p><a id="refheading1052062082896917"></a></p>
 <h2 id="45">4.5. <span style="color: #4f81bd">استثناءات المشروع</span></h2>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/1000000000000121000000BC7074573C.png" width="202" height="132" style="display:inline-block; margin:4px;width:5.35cm;height:3.48cm;" class="odt-zoomable" data-zoom-src="images/1000000000000121000000BC7074573C.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/1000000000000121000000BC7074573C.png" width="202" height="132" style="display:inline-block; margin:4px;width:5.35cm;height:3.48cm;" class="odt-zoomable" data-zoom-src="images/1000000000000121000000BC7074573C.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
 
 <p>لقد رأينا بالفعل الفئات [<bdi dir="ltr" class="odt-ltr-term">UncheckedException</bdi>، <bdi dir="ltr" class="odt-ltr-term">DaoException</bdi>، <bdi dir="ltr" class="odt-ltr-term">ShortException</bdi>] في مشروع [<bdi dir="ltr" class="odt-ltr-term">spring-jdbc-03</bdi>]. ونحن نضيف فئة جديدة:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-java">
@@ -1825,7 +1825,7 @@
 </ul>
 <p><a id="refheading93205938270148"></a></p>
 <h2 id="46">4.6. <span style="color: #4f81bd">كيانات المشروع</span></h2>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000010D0000017740DC451D.png" width="188" height="262" style="display:inline-block; margin:4px;width:4.979cm;height:6.941cm;" class="odt-zoomable" data-zoom-src="images/100000000000010D0000017740DC451D.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000010D0000017740DC451D.png" width="188" height="262" style="display:inline-block; margin:4px;width:4.979cm;height:6.941cm;" class="odt-zoomable" data-zoom-src="images/100000000000010D0000017740DC451D.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
 
 <p>تمثل الفئات الموجودة في حزمة [<bdi dir="ltr" class="odt-ltr-term">spring.jdbc.entities</bdi>] الصفوف في جداول قاعدة البيانات [<bdi dir="ltr" class="odt-ltr-term">dbproduitscategories</bdi>]. في الوقت الحالي، سنتجاهل جداول [<bdi dir="ltr" class="odt-ltr-term">USERS</bdi>، <bdi dir="ltr" class="odt-ltr-term">ROLES</bdi>، <bdi dir="ltr" class="odt-ltr-term">USERS</bdi>_ROLE].</p>
 <p>جميع الكيانات تمتد من الفئة الأصلية [<span style="color: #000000"><bdi dir="ltr" class="odt-ltr-term">AbstractCoreEntity</bdi></span>]:</p>
@@ -1940,7 +1940,7 @@
 <ul>
   <li>السطر 6: تمتد فئة [<bdi dir="ltr" class="odt-ltr-term">Product</bdi>] من فئة [<span style="color: #000000"><bdi dir="ltr" class="odt-ltr-term">AbstractCoreEntity</bdi></span>]؛
   </li>
-  <li>الأسطر 8–12: الحقول [id, <bdi dir="ltr" class="odt-ltr-term">version</bdi>, <bdi dir="ltr" class="odt-ltr-term">name</bdi>, <bdi dir="ltr" class="odt-ltr-term">categoryId</bdi>, <bdi dir="ltr" class="odt-ltr-term">price</bdi>, <bdi dir="ltr" class="odt-ltr-term">description</bdi>] تتوافق مع الأعمدة [<bdi dir="ltr" class="odt-ltr-term">ID</bdi>, <bdi dir="ltr" class="odt-ltr-term">VERSIONING</bdi>, <bdi dir="ltr" class="odt-ltr-term">NAME</bdi>, <bdi dir="ltr" class="odt-ltr-term">CATEGORY_ID</bdi>, <bdi dir="ltr" class="odt-ltr-term">PRICE</bdi>, <bdi dir="ltr" class="odt-ltr-term">DESCRIPTION</bdi>] في جدول [<bdi dir="ltr" class="odt-ltr-term">PRODUCTS</bdi>]؛
+  <li>الأسطر 8–12: الحقول [<bdi dir="ltr" class="odt-ltr-term">id, version, name, categoryId, price, description</bdi>] تتوافق مع الأعمدة [<bdi dir="ltr" class="odt-ltr-term">ID, VERSIONING, NAME, CATEGORY_ID, PRICE, DESCRIPTION</bdi>] في جدول [<bdi dir="ltr" class="odt-ltr-term">PRODUCTS</bdi>]؛
   </li>
   <li>السطر 12: الكائن من النوع [<bdi dir="ltr" class="odt-ltr-term">Category</bdi>] مع المفتاح الأساسي [<bdi dir="ltr" class="odt-ltr-term">categoryId</bdi>]. قد يتم ملء هذا الحقل أو لا يتم ملؤه، حسب الحالة. عندما يتم ملؤه، نشير إلى منتج طويل [<bdi dir="ltr" class="odt-ltr-term">LongProduct</bdi>]؛ وإلا، فإننا نشير إلى منتج قصير [<bdi dir="ltr" class="odt-ltr-term">ShortProduct</bdi>]؛
   </li>
@@ -2003,7 +2003,7 @@
 <ul>
   <li>السطر 9: تمتد فئة [<span style="color: #000000"><bdi dir="ltr" class="odt-ltr-term">Category</bdi></span>] من فئة [<span style="color: #000000"><bdi dir="ltr" class="odt-ltr-term">AbstractCoreEntity</bdi></span>]؛
   </li>
-  <li>السطر 12: الحقول [id, <bdi dir="ltr" class="odt-ltr-term">version</bdi>, <bdi dir="ltr" class="odt-ltr-term">name</bdi>] تتوافق مع الأعمدة [<bdi dir="ltr" class="odt-ltr-term">ID</bdi>, <bdi dir="ltr" class="odt-ltr-term">VERSIONING</bdi>, <bdi dir="ltr" class="odt-ltr-term">NAME</bdi>] في جدول [<bdi dir="ltr" class="odt-ltr-term">CATEGORIES</bdi>]؛
+  <li>السطر 12: الحقول [<bdi dir="ltr" class="odt-ltr-term">id, version, name</bdi>] تتوافق مع الأعمدة [<bdi dir="ltr" class="odt-ltr-term">ID, VERSIONING, NAME</bdi>] في جدول [<bdi dir="ltr" class="odt-ltr-term">CATEGORIES</bdi>]؛
   </li>
   <li>السطر 13: يمثل الحقل [<bdi dir="ltr" class="odt-ltr-term">products</bdi>] قائمة المنتجات في الفئة. لا يتم ملء هذا الحقل دائمًا. وعندما لا يتم ملؤه، نشير إلى فئة مختصرة [<bdi dir="ltr" class="odt-ltr-term">ShortCategorie</bdi>]؛ وإلا، فإننا نشير إلى فئة مطولة [<bdi dir="ltr" class="odt-ltr-term">LongCategorie</bdi>]؛
   </li>
@@ -2014,9 +2014,9 @@
 </ul>
 <p><a id="refheading1052082082896917"></a></p>
 <h2 id="47-idaot">4.7. <span style="color: #4f81bd">واجهة <bdi dir="ltr" class="odt-ltr-term">Idao</bdi>&lt;<bdi dir="ltr" class="odt-ltr-term">T</bdi>&gt;</span></h2>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/1000000000000451000000EB3BC5FAFA.png" width="553" height="118" style="display:inline-block; margin:4px;width:14.619cm;height:3.11cm;" class="odt-zoomable" data-zoom-src="images/1000000000000451000000EB3BC5FAFA.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/1000000000000451000000EB3BC5FAFA.png" width="553" height="118" style="display:inline-block; margin:4px;width:14.619cm;height:3.11cm;" class="odt-zoomable" data-zoom-src="images/1000000000000451000000EB3BC5FAFA.png" /></td></tr></table>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000000EE000000C7690B2175.png" width="167" height="139" style="display:inline-block; margin:4px;width:4.41cm;height:3.687cm;" class="odt-zoomable" data-zoom-src="images/10000000000000EE000000C7690B2175.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000000EE000000C7690B2175.png" width="167" height="139" style="display:inline-block; margin:4px;width:4.41cm;height:3.687cm;" class="odt-zoomable" data-zoom-src="images/10000000000000EE000000C7690B2175.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
 
 <p>تتميز واجهة [<bdi dir="ltr" class="odt-ltr-term">IDao</bdi>] في طبقة [<bdi dir="ltr" class="odt-ltr-term">DAO</bdi>] بالتوقيع التالي:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-java">
@@ -2111,14 +2111,14 @@
     <ul>
       <li>السطر 1: قائمة تنفذ واجهة [<bdi dir="ltr" class="odt-ltr-term">Iterable</bdi>&lt;<bdi dir="ltr" class="odt-ltr-term">Long</bdi>&gt;]. ينفذ النوع [<bdi dir="ltr" class="odt-ltr-term">List</bdi>&lt;<bdi dir="ltr" class="odt-ltr-term">Long</bdi>&gt;] هذه الواجهة، ولكن هناك العديد من الأنواع الأخرى. لو كنا قد كتبنا [<bdi dir="ltr" class="odt-ltr-term">List</bdi><span style="color: #000000">&lt;<bdi dir="ltr" class="odt-ltr-term">Long</bdi>&gt;</span><span style="color: #6a3e3e"> ids</span>]، لكان ذلك كافياً لأمثلتنا، ولكنه كان سيجبر مستخدم أمثلةنا على إجراء تحويلات إذا لم يكن المعامل الخاص بهم من النوع المتوقع بالضبط؛
       </li>
-      <li>السطر 3: للأسف، لا ينفذ النوع `<bdi dir="ltr" class="odt-ltr-term">Long</bdi>[]` واجهة `<bdi dir="ltr" class="odt-ltr-term">Iterable</bdi>&lt;<bdi dir="ltr" class="odt-ltr-term">Long</bdi>&gt;`. في هذه الحالة، سنستخدم النسخة من السطر 3. يمكن للمعلمة الرسمية [<bdi dir="ltr" class="odt-ltr-term">Long... ids</bdi>] (3 نقاط) قبول قيم من مصفوفة أو تسلسل من المعرفات:  <span style="color: #000000"><bdi dir="ltr" class="odt-ltr-term">getShortEntitiesById</bdi>(id1, id2, ...)؛</span>
+      <li>السطر 3: للأسف، لا ينفذ النوع `<bdi dir="ltr" class="odt-ltr-term">Long</bdi>[]` واجهة `<bdi dir="ltr" class="odt-ltr-term">Iterable</bdi>&lt;<bdi dir="ltr" class="odt-ltr-term">Long</bdi>&gt;`. في هذه الحالة، سنستخدم النسخة من السطر 3. يمكن للمعلمة الرسمية [<bdi dir="ltr" class="odt-ltr-term">Long... ids</bdi>] (3 نقاط) قبول قيم من مصفوفة أو تسلسل من المعرفات:  <span style="color: #000000"><bdi dir="ltr" class="odt-ltr-term">getShortEntitiesById</bdi>(<bdi dir="ltr" class="odt-ltr-term">id1, id2</bdi>, ...)؛</span>
       </li>
     </ul>
   </li>
 </ul>
 
 <p>سيتم تنفيذ واجهة <bdi dir="ltr" class="odt-ltr-term">IDao</bdi>&lt;<bdi dir="ltr" class="odt-ltr-term">T</bdi>&gt; نفسها من خلال البنية التالية:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/1000000000000485000000F5E454592D.png" width="579" height="122" style="display:inline-block; margin:4px;width:15.307cm;height:3.24cm;" class="odt-zoomable" data-zoom-src="images/1000000000000485000000F5E454592D.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/1000000000000485000000F5E454592D.png" width="579" height="122" style="display:inline-block; margin:4px;width:15.307cm;height:3.24cm;" class="odt-zoomable" data-zoom-src="images/1000000000000485000000F5E454592D.png" /></td></tr></table>
 
 <p>حيث سيتم إدراج طبقة [<bdi dir="ltr" class="odt-ltr-term">JPA</bdi>] (<bdi dir="ltr" class="odt-ltr-term">Java Persistence API</bdi>) بين طبقة [<bdi dir="ltr" class="odt-ltr-term">DAO</bdi>] ومحرك <bdi dir="ltr" class="odt-ltr-term">JDBC</bdi> الخاص بنظام إدارة قواعد البيانات (<bdi dir="ltr" class="odt-ltr-term">DBMS</bdi>). سيسمح لنا ذلك بالحصول على طبقة اختبار مشتركة لكلا البنيتين. في كلتا الحالتين، ستقدم طبقة [<bdi dir="ltr" class="odt-ltr-term">DAO</bdi>] واجهتين:</p>
 <ul>
@@ -2129,7 +2129,7 @@
 </ul>
 <p><a id="refheading1052102082896917"></a></p>
 <h2 id="48-idaot">4.8. <span style="color: #4f81bd">تنفيذ واجهة <bdi dir="ltr" class="odt-ltr-term">IDao</bdi>&lt;<bdi dir="ltr" class="odt-ltr-term">T</bdi>&gt;</span></h2>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000000EE000000C7690B2175.png" width="167" height="139" style="display:inline-block; margin:4px;width:4.41cm;height:3.687cm;" class="odt-zoomable" data-zoom-src="images/10000000000000EE000000C7690B2175.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000000EE000000C7690B2175.png" width="167" height="139" style="display:inline-block; margin:4px;width:4.41cm;height:3.687cm;" class="odt-zoomable" data-zoom-src="images/10000000000000EE000000C7690B2175.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
 
 <ul>
   <li>يتم تنفيذ واجهة <bdi dir="ltr" class="odt-ltr-term">IDao</bdi>&lt;<bdi dir="ltr" class="odt-ltr-term">Product</bdi>&gt; بواسطة فئة [<bdi dir="ltr" class="odt-ltr-term">DaoProduct</bdi>]؛
@@ -2657,9 +2657,9 @@
 </ul>
 <p><a id="refheading1052122082896917"></a></p>
 <h2 id="49-daocategorie">4.9. <span style="color: #4f81bd">فئة [<bdi dir="ltr" class="odt-ltr-term">DaoCategorie</bdi>]</span></h2>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/1000000000000426000000FDF1819B0F.png" width="531" height="127" style="display:inline-block; margin:4px;width:14.049cm;height:3.348cm;" class="odt-zoomable" data-zoom-src="images/1000000000000426000000FDF1819B0F.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/1000000000000426000000FDF1819B0F.png" width="531" height="127" style="display:inline-block; margin:4px;width:14.049cm;height:3.348cm;" class="odt-zoomable" data-zoom-src="images/1000000000000426000000FDF1819B0F.png" /></td></tr></table>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000000EE000000C7690B2175.png" width="167" height="139" style="display:inline-block; margin:4px;width:4.41cm;height:3.687cm;" class="odt-zoomable" data-zoom-src="images/10000000000000EE000000C7690B2175.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000000EE000000C7690B2175.png" width="167" height="139" style="display:inline-block; margin:4px;width:4.41cm;height:3.687cm;" class="odt-zoomable" data-zoom-src="images/10000000000000EE000000C7690B2175.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
 
 <p><span style="color: #000000">تُنفِّذ فئة [<bdi dir="ltr" class="odt-ltr-term">DaoCategorie</bdi>] واجهة [<bdi dir="ltr" class="odt-ltr-term">IDao</bdi>&lt;<bdi dir="ltr" class="odt-ltr-term">Categorie</bdi>&gt;]، التي تتيح الوصول إلى البيانات الموجودة في جدول [<bdi dir="ltr" class="odt-ltr-term">CATEGORIES</bdi>] بقاعدة بيانات <bdi dir="ltr" class="odt-ltr-term">MySQL</bdi> [<bdi dir="ltr" class="odt-ltr-term">dbproduitscategories</bdi>]. وفيما يلي هيكلها الأساسي:</span></p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-java">
@@ -2808,7 +2808,7 @@
 <p><img src="images/10000000000002680000005DC24750A3.png" width="431" height="65" style="width:11.411cm;height:1.723cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/10000000000002680000005DC24750A3.png" /></p>
 <p><span style="color: #000000">الفكرة هي كما يلي:</span></p>
 <ul>
-  <li><span style="color: #000000">تقوم الطريقة</span><b> [</b><b><span style="color: #0000c0"><bdi dir="ltr" class="odt-ltr-term">namedParameterJdbcTemplate</bdi></span></b><b>].<bdi dir="ltr" class="odt-ltr-term">query</bdi>(<bdi dir="ltr" class="odt-ltr-term">String sql</bdi>, <bdi dir="ltr" class="odt-ltr-term">RowMapper</bdi>&lt;<bdi dir="ltr" class="odt-ltr-term">T</bdi>&gt; <bdi dir="ltr" class="odt-ltr-term">rowMapper</bdi>) </b><span style="color: #000000">بتنفيذ عبارة <bdi dir="ltr" class="odt-ltr-term">SQL</bdi> [<bdi dir="ltr" class="odt-ltr-term">Select</bdi>]. وهي تتعامل مع أي استثناءات، بالإضافة إلى فتح وإغلاق الاتصال بنظام إدارة قواعد البيانات (<bdi dir="ltr" class="odt-ltr-term">DBMS</bdi>). الشيء الوحيد الذي لا تستطيع فعله هو تغليف عناصر [<bdi dir="ltr" class="odt-ltr-term">ResultSet</bdi>] — الكائنات التي تحصل عليها — في نوع [<bdi dir="ltr" class="odt-ltr-term">Category</bdi>]، لأنها لا تعرف التعيين بين حقول نوع [<bdi dir="ltr" class="odt-ltr-term">Category</bdi>] وأعمدة [<bdi dir="ltr" class="odt-ltr-term">ResultSet</bdi>]. سنرى لاحقًا أن هذا التعيين يتم إنشاؤه باستخدام تقنية <bdi dir="ltr" class="odt-ltr-term">JPA</bdi>، والتي ستقوم تلقائيًا بتغليف عناصر [<bdi dir="ltr" class="odt-ltr-term">ResultSet</bdi>] في مثيلات من النوع <bdi dir="ltr" class="odt-ltr-term">T.</bdi> في الوقت الحالي، المعلمة الثانية لطريقة [<bdi dir="ltr" class="odt-ltr-term">query</bdi>] هي مثيل لواجهة [<bdi dir="ltr" class="odt-ltr-term">RowMapper</bdi>&lt;<bdi dir="ltr" class="odt-ltr-term">T</bdi>&gt;] قادرة على تنفيذ هذا التغليف؛</span>
+  <li><span style="color: #000000">تقوم الطريقة</span><b> [</b><b><span style="color: #0000c0"><bdi dir="ltr" class="odt-ltr-term">namedParameterJdbcTemplate</bdi></span></b><b>].<bdi dir="ltr" class="odt-ltr-term">query</bdi>(<bdi dir="ltr" class="odt-ltr-term">String sql, RowMapper</bdi>&lt;<bdi dir="ltr" class="odt-ltr-term">T</bdi>&gt; <bdi dir="ltr" class="odt-ltr-term">rowMapper</bdi>) </b><span style="color: #000000">بتنفيذ عبارة <bdi dir="ltr" class="odt-ltr-term">SQL</bdi> [<bdi dir="ltr" class="odt-ltr-term">Select</bdi>]. وهي تتعامل مع أي استثناءات، بالإضافة إلى فتح وإغلاق الاتصال بنظام إدارة قواعد البيانات (<bdi dir="ltr" class="odt-ltr-term">DBMS</bdi>). الشيء الوحيد الذي لا تستطيع فعله هو تغليف عناصر [<bdi dir="ltr" class="odt-ltr-term">ResultSet</bdi>] — الكائنات التي تحصل عليها — في نوع [<bdi dir="ltr" class="odt-ltr-term">Category</bdi>]، لأنها لا تعرف التعيين بين حقول نوع [<bdi dir="ltr" class="odt-ltr-term">Category</bdi>] وأعمدة [<bdi dir="ltr" class="odt-ltr-term">ResultSet</bdi>]. سنرى لاحقًا أن هذا التعيين يتم إنشاؤه باستخدام تقنية <bdi dir="ltr" class="odt-ltr-term">JPA</bdi>، والتي ستقوم تلقائيًا بتغليف عناصر [<bdi dir="ltr" class="odt-ltr-term">ResultSet</bdi>] في مثيلات من النوع <bdi dir="ltr" class="odt-ltr-term">T.</bdi> في الوقت الحالي، المعلمة الثانية لطريقة [<bdi dir="ltr" class="odt-ltr-term">query</bdi>] هي مثيل لواجهة [<bdi dir="ltr" class="odt-ltr-term">RowMapper</bdi>&lt;<bdi dir="ltr" class="odt-ltr-term">T</bdi>&gt;] قادرة على تنفيذ هذا التغليف؛</span>
   </li>
 </ul>
 
@@ -2926,7 +2926,7 @@
 <span class="normal"><a href="#__codelineno-1-2">2</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1"></a>c1, produits1
 <a id="__codelineno-1-2" name="__codelineno-1-2"></a>c2, produits2
 </code></pre></div></td></tr></table></div>
-<p>حيث تحتوي كل فئة [ci] على حقل [<bdi dir="ltr" class="odt-ltr-term">products</bdi>] يمثل قائمة المنتجات [<bdi dir="ltr" class="odt-ltr-term">producti1</bdi>, <bdi dir="ltr" class="odt-ltr-term">producti2</bdi>, ...]. ويتم تحقيق ذلك عن طريق تمرير قائمة الفئات إلى دالة خاصة [<bdi dir="ltr" class="odt-ltr-term">filterCategories</bdi>]:</p>
+<p>حيث تحتوي كل فئة [ci] على حقل [<bdi dir="ltr" class="odt-ltr-term">products</bdi>] يمثل قائمة المنتجات [<bdi dir="ltr" class="odt-ltr-term">producti1, producti2</bdi>, ...]. ويتم تحقيق ذلك عن طريق تمرير قائمة الفئات إلى دالة خاصة [<bdi dir="ltr" class="odt-ltr-term">filterCategories</bdi>]:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-sql">
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#646464">@Override</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="font-weight:bold;color:#7f0055">public</span><span style="color:#000000"> List&lt;Categorie&gt; getAllLongEntities() {</span></span></span>
@@ -3262,7 +3262,7 @@
   </li>
   <li><span style="color: #000000">الأسطر 26–43: إدراج أو تحديث المنتجات؛</span>
   </li>
-  <li><span style="color: #000000">الأسطر 35-39: يربط هذا الرمز كل منتج بفئته. في المرحلة السابقة لإدراج الفئات، تم تعيين مفتاح أساسي لها يجب وضعه في حقل [<bdi dir="ltr" class="odt-ltr-term">idCategorie</bdi>] الخاص بالمنتج (السطر 37). بالإضافة إلى ذلك، تسمح الأسطر 37-38 بتصحيح الحالات التي لم يقم فيها المستدعي بربط كل منتج بفئته بشكل صحيح. لضمان صحة هذه العلاقة، يجب استخدام الطريقة [<bdi dir="ltr" class="odt-ltr-term">Category</bdi>].add(<bdi dir="ltr" class="odt-ltr-term">Product p</bdi>)، ولكن لا شيء يمنع المستخدم من إضافة منتج مباشرة إلى قائمة منتجات الفئة دون استخدام هذه الطريقة، مع المخاطرة بملء حقول [<bdi dir="ltr" class="odt-ltr-term">idCategory</bdi>, <bdi dir="ltr" class="odt-ltr-term">category</bdi>] للمنتج p بشكل غير صحيح؛</span>
+  <li><span style="color: #000000">الأسطر 35-39: يربط هذا الرمز كل منتج بفئته. في المرحلة السابقة لإدراج الفئات، تم تعيين مفتاح أساسي لها يجب وضعه في حقل [<bdi dir="ltr" class="odt-ltr-term">idCategorie</bdi>] الخاص بالمنتج (السطر 37). بالإضافة إلى ذلك، تسمح الأسطر 37-38 بتصحيح الحالات التي لم يقم فيها المستدعي بربط كل منتج بفئته بشكل صحيح. لضمان صحة هذه العلاقة، يجب استخدام الطريقة [<bdi dir="ltr" class="odt-ltr-term">Category</bdi>].add(<bdi dir="ltr" class="odt-ltr-term">Product p</bdi>)، ولكن لا شيء يمنع المستخدم من إضافة منتج مباشرة إلى قائمة منتجات الفئة دون استخدام هذه الطريقة، مع المخاطرة بملء حقول [<bdi dir="ltr" class="odt-ltr-term">idCategory, category</bdi>] للمنتج p بشكل غير صحيح؛</span>
   </li>
   <li><span style="color: #000000">السطر 43: نوكل مهمة الاحتفاظ بالمنتجات أو تحديثها إلى مثيل واجهة [<bdi dir="ltr" class="odt-ltr-term">IDao</bdi>&lt;<bdi dir="ltr" class="odt-ltr-term">Product</bdi>&gt;]. تذكر أن هذا المثيل تم إدراجه في فئة [<bdi dir="ltr" class="odt-ltr-term">DaoCategory</bdi>]:</span>
   </li>
@@ -3503,9 +3503,9 @@
 
 <p><a id="refheading1052402082896917"></a></p>
 <h2 id="410-daoproduit">4.10. <span style="color: #4f81bd">فئة [<bdi dir="ltr" class="odt-ltr-term">DaoProduit</bdi>]</span></h2>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/1000000000000422000000FE997CF17E.png" width="529" height="127" style="display:inline-block; margin:4px;width:13.996cm;height:3.36cm;" class="odt-zoomable" data-zoom-src="images/1000000000000422000000FE997CF17E.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/1000000000000422000000FE997CF17E.png" width="529" height="127" style="display:inline-block; margin:4px;width:13.996cm;height:3.36cm;" class="odt-zoomable" data-zoom-src="images/1000000000000422000000FE997CF17E.png" /></td></tr></table>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000000EE000000C7690B2175.png" width="167" height="139" style="display:inline-block; margin:4px;width:4.41cm;height:3.687cm;" class="odt-zoomable" data-zoom-src="images/10000000000000EE000000C7690B2175.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000000EE000000C7690B2175.png" width="167" height="139" style="display:inline-block; margin:4px;width:4.41cm;height:3.687cm;" class="odt-zoomable" data-zoom-src="images/10000000000000EE000000C7690B2175.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
 
 <p><span style="color: #000000">تنفذ فئة [<bdi dir="ltr" class="odt-ltr-term">DaoProduit</bdi>] واجهة [<bdi dir="ltr" class="odt-ltr-term">IDao</bdi>&lt;<bdi dir="ltr" class="odt-ltr-term">Produit</bdi>&gt;]، التي تتيح الوصول إلى البيانات الموجودة في جدول [<bdi dir="ltr" class="odt-ltr-term">PRODUITS</bdi>] بقاعدة بيانات <bdi dir="ltr" class="odt-ltr-term">MySQL</bdi> [<bdi dir="ltr" class="odt-ltr-term">dbproduitscategories</bdi>]. وفيما يلي هيكلها الأساسي:</span></p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-java">
@@ -3836,9 +3836,9 @@
 <p>أسماء المعلمات [:id,:<bdi dir="ltr" class="odt-ltr-term">version</bdi>,:nom,:<bdi dir="ltr" class="odt-ltr-term">prix</bdi>,:<bdi dir="ltr" class="odt-ltr-term">idCategorie</bdi>,:<bdi dir="ltr" class="odt-ltr-term">description</bdi>] هي أيضًا أسماء الحقول في فئة [<bdi dir="ltr" class="odt-ltr-term">Product</bdi>]، مما يسمح باستخدام العبارة في السطور 6-7 لتحديث المنتج الحالي.</p>
 <p><a id="refheading1052482082896917"></a></p>
 <h2 id="411">4.11. <span style="color: #4f81bd">طبقة الاختبار</span></h2>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000041E000000F87AA42CD6.png" width="527" height="124" style="display:inline-block; margin:4px;width:13.944cm;height:3.281cm;" class="odt-zoomable" data-zoom-src="images/100000000000041E000000F87AA42CD6.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000041E000000F87AA42CD6.png" width="527" height="124" style="display:inline-block; margin:4px;width:13.944cm;height:3.281cm;" class="odt-zoomable" data-zoom-src="images/100000000000041E000000F87AA42CD6.png" /></td></tr></table>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000011600000127473257AB.png" width="195" height="207" style="display:inline-block; margin:4px;width:5.151cm;height:5.466cm;" class="odt-zoomable" data-zoom-src="images/100000000000011600000127473257AB.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000011600000127473257AB.png" width="195" height="207" style="display:inline-block; margin:4px;width:5.151cm;height:5.466cm;" class="odt-zoomable" data-zoom-src="images/100000000000011600000127473257AB.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
 
 <p><span style="color: #000000">تتكون طبقة الاختبار من ثلاث فئات اختبار:</span></p>
 <ul>
@@ -3964,7 +3964,7 @@
 </code></pre></div>
 
 <p><span style="color: #000000">وبالتالي، نجري 48 اختبارًا لتغطية جميع الحالات المحتملة. ونقوم بتنفيذ تكوين الاختبار المسمى [<bdi dir="ltr" class="odt-ltr-term">spring-jdbc-generic-04-JUnitTestCheckArguments</bdi>] [1]. والنتيجة هي كما يلي [2]:</span></p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000004BB000002350EAD71A3.png" width="606" height="283" style="display:inline-block; margin:4px;width:16.021cm;height:7.475cm;" class="odt-zoomable" data-zoom-src="images/10000000000004BB000002350EAD71A3.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000004BB000002350EAD71A3.png" width="606" height="283" style="display:inline-block; margin:4px;width:16.021cm;height:7.475cm;" class="odt-zoomable" data-zoom-src="images/10000000000004BB000002350EAD71A3.png" /></td></tr></table>
 
 <p><a id="refheading1052522082896917"></a></p>
 <h3 id="4112-junittestdao">4.11.2. <span style="color: #4f81bd">اختبار [<bdi dir="ltr" class="odt-ltr-term">JUnitTestDao</bdi>]</span></h3>
@@ -4056,7 +4056,7 @@
   </li>
 </ul>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000048B000000E451211561.png" width="582" height="114" style="display:inline-block; margin:4px;width:15.386cm;height:3.016cm;" class="odt-zoomable" data-zoom-src="images/100000000000048B000000E451211561.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000048B000000E451211561.png" width="582" height="114" style="display:inline-block; margin:4px;width:15.386cm;height:3.016cm;" class="odt-zoomable" data-zoom-src="images/100000000000048B000000E451211561.png" /></td></tr></table>
 
 <ul>
   <li>(تابع)
@@ -4581,7 +4581,7 @@
 <h4 id="41128">4.11.2.8. <span style="color: #4f81bd">الخلاصة</span></h4>
 <p>سنوقف عند هذا الحد. يوجد حتى الآن 74 اختبارًا، ويمكننا إضافة المزيد لأنني ربما نسيت بعض حالات الاختبار. على الرغم من أن هذه الاختبارات ليست شاملة، إلا أنها كشفت عن العديد من الأخطاء — معظمها حالات استثنائية لم تكن متوقعة عند كتابة طبقة [<bdi dir="ltr" class="odt-ltr-term">DAO</bdi>] في البداية. تعد مرحلة الاختبار الشاملة أمرًا ضروريًا لأي مشروع.</p>
 <p>لتشغيل الاختبار، يمكننا استخدام تكوين التنفيذ المستورد المسمى [<bdi dir="ltr" class="odt-ltr-term">spring-jdbc-generic-04.JUnitTestDao</bdi>].</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000014B0000016FACE9F368.png" width="232" height="257" style="display:inline-block; margin:4px;width:6.13cm;height:6.796cm;" class="odt-zoomable" data-zoom-src="images/100000000000014B0000016FACE9F368.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000015B000001B4426AAA4B.png" width="243" height="305" style="display:inline-block; margin:4px;width:6.421cm;height:8.068cm;" class="odt-zoomable" data-zoom-src="images/100000000000015B000001B4426AAA4B.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000014B0000016FACE9F368.png" width="232" height="257" style="display:inline-block; margin:4px;width:6.13cm;height:6.796cm;" class="odt-zoomable" data-zoom-src="images/100000000000014B0000016FACE9F368.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000015B000001B4426AAA4B.png" width="243" height="305" style="display:inline-block; margin:4px;width:6.421cm;height:8.068cm;" class="odt-zoomable" data-zoom-src="images/100000000000015B000001B4426AAA4B.png" /></td></tr></table>
 
 <p><a id="refheading1052702082896917"></a></p>
 <h3 id="4113-junittestpushthelimits">4.11.3. <span style="color: #4f81bd"><span style="color: #4f81bd">اختبار [<bdi dir="ltr" class="odt-ltr-term">JUnitTestPushTheLimits</bdi>]</span></span></h3>
@@ -4720,7 +4720,7 @@
 
 <p>نرى هنا الهيكل الأساسي لفئة [<bdi dir="ltr" class="odt-ltr-term">JUnitTestDao</bdi>]. وقد سبق أن تعرفنا على جميع هذه الطرق. يعمل الاختبار مع قاعدة بيانات تضم 2,500 فئة، تحتوي كل منها على منتجين (السطران 32-33). وبالتالي، سيحتوي جدول [<bdi dir="ltr" class="odt-ltr-term">CATEGORIES</bdi>] على 2,500 صف، وسيحتوي جدول [<bdi dir="ltr" class="odt-ltr-term">PRODUCTS</bdi>] على 5,000 صف. كان بإمكاننا تضمين المزيد من الصفوف، لكن الاختبار يستغرق بالفعل ما يقرب من دقيقة لتشغيله. لذلك اخترنا قيمًا مقبولة للمستخدم الذي ينتظر انتهاء الاختبار.</p>
 <p>يوجد 18 اختبارًا في المجموع. يتم تشغيلها باستخدام تكوين التنفيذ [1]. تظهر أوقات التنفيذ في [2]:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000004F6000002832291F332.png" width="635" height="321" style="display:inline-block; margin:4px;width:16.801cm;height:8.505cm;" class="odt-zoomable" data-zoom-src="images/10000000000004F6000002832291F332.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000004F6000002832291F332.png" width="635" height="321" style="display:inline-block; margin:4px;width:16.801cm;height:8.505cm;" class="odt-zoomable" data-zoom-src="images/10000000000004F6000002832291F332.png" /></td></tr></table>
 
 <p><a id="refheading1052742082896917"></a></p>
 <h4 id="41132-donothing-0114">4.11.3.2. <span style="color: #4f81bd"><bdi dir="ltr" class="odt-ltr-term">doNothing</bdi> [0.114]</span></h4>
@@ -4846,112 +4846,112 @@
 <h4 id="41138">4.11.3.8. <span style="color: #4f81bd">النتائج</span></h4>
 <p>لن نستمر في عرض الاختبارات المختلفة. سنكتفي بالإشارة إلى وظائفها ومدتها. هذه المدد لا تكون ذات معنى إلا عند مقارنتها ببعضها البعض. تعتمد قيمها على بيئة الاختبار المستخدمة (تكوين الأجهزة والبرامج). ومع ذلك، عندما يتم الحصول عليها في نفس البيئة، يمكن مقارنتها.</p>
 <p>المدة الإجمالية للاختبار: 59.995 ثانية</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div markdown="block">
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><div markdown="block">
 <div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>اختبار
 </code></pre></div>
-</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0"><b>الدور</b></div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div markdown="block">
+</div></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><div style="margin:0 0 0.5em 0"><b>الدور</b></div></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><div markdown="block">
 <div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>المدة (بالثواني)
 </code></pre></div>
-</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div markdown="block">
+</div></td></tr><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><div markdown="block">
 <div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>perf01
 </code></pre></div>
-</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">يملأ قاعدة البيانات بـ 2,500 فئة و 5,000 منتج</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div markdown="block">
+</div></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><div style="margin:0 0 0.5em 0">يملأ قاعدة البيانات بـ 2,500 فئة و 5,000 منتج</div></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><div markdown="block">
 <div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>4.179
 </code></pre></div>
-</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div markdown="block">
+</div></td></tr><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><div markdown="block">
 <div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>perf02
 </code></pre></div>
-</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">يملأ قاعدة البيانات ثم يعدلها</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div markdown="block">
+</div></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><div style="margin:0 0 0.5em 0">يملأ قاعدة البيانات ثم يعدلها</div></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><div markdown="block">
 <div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>7,624
 </code></pre></div>
-</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div markdown="block">
+</div></td></tr><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><div markdown="block">
 <div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>perf03
 </code></pre></div>
-</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">يملأ قاعدة البيانات ثم يحذف جميع الفئات ومنتجاتها</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div markdown="block">
+</div></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><div style="margin:0 0 0.5em 0">يملأ قاعدة البيانات ثم يحذف جميع الفئات ومنتجاتها</div></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><div markdown="block">
 <div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>3,911
 </code></pre></div>
-</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div markdown="block">
+</div></td></tr><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><div markdown="block">
 <div class="highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>perf04
 </code></pre></div>
-</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">يملأ قاعدة البيانات ويطلب النسخة الطويلة لجميع الفئات</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div markdown="block">
+</div></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><div style="margin:0 0 0.5em 0">يملأ قاعدة البيانات ويطلب النسخة الطويلة لجميع الفئات</div></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><div markdown="block">
 <div class="highlight"><pre><span></span><code><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a>2,426
 </code></pre></div>
-</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div markdown="block">
+</div></td></tr><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><div markdown="block">
 <div class="highlight"><pre><span></span><code><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a>perf05
 </code></pre></div>
-</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">يملأ قاعدة البيانات ويحذف 5,000 منتج واحدًا تلو الآخر باستخدام مفاتيحها الأساسية</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div markdown="block">
+</div></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><div style="margin:0 0 0.5em 0">يملأ قاعدة البيانات ويحذف 5,000 منتج واحدًا تلو الآخر باستخدام مفاتيحها الأساسية</div></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><div markdown="block">
 <div class="highlight"><pre><span></span><code><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>3,507
 </code></pre></div>
-</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div markdown="block">
+</div></td></tr><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><div markdown="block">
 <div class="highlight"><pre><span></span><code><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a>perf06
 </code></pre></div>
-</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">يملأ قاعدة البيانات ويحذف 5,000 منتج واحدًا تلو الآخر باستخدام أسمائها</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div markdown="block">
+</div></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><div style="margin:0 0 0.5em 0">يملأ قاعدة البيانات ويحذف 5,000 منتج واحدًا تلو الآخر باستخدام أسمائها</div></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><div markdown="block">
 <div class="highlight"><pre><span></span><code><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a>3,947
 </code></pre></div>
-</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div markdown="block">
+</div></td></tr><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><div markdown="block">
 <div class="highlight"><pre><span></span><code><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a>perf07
 </code></pre></div>
-</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">يملأ قاعدة البيانات ويحذف 5,000 منتج واحدًا تلو الآخر باستخدام رموز <bdi dir="ltr" class="odt-ltr-term">SKU</bdi> الخاصة بهم</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div markdown="block">
+</div></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><div style="margin:0 0 0.5em 0">يملأ قاعدة البيانات ويحذف 5,000 منتج واحدًا تلو الآخر باستخدام رموز <bdi dir="ltr" class="odt-ltr-term">SKU</bdi> الخاصة بهم</div></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><div markdown="block">
 <div class="highlight"><pre><span></span><code><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a>3,633
 </code></pre></div>
-</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div markdown="block">
+</div></td></tr><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><div markdown="block">
 <div class="highlight"><pre><span></span><code><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a>perf08
 </code></pre></div>
-</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">يملأ قاعدة البيانات ويسترد النسخة المختصرة لجميع المنتجات حسب أسمائها</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div markdown="block">
+</div></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><div style="margin:0 0 0.5em 0">يملأ قاعدة البيانات ويسترد النسخة المختصرة لجميع المنتجات حسب أسمائها</div></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><div markdown="block">
 <div class="highlight"><pre><span></span><code><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a>4,054
 </code></pre></div>
-</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div markdown="block">
+</div></td></tr><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><div markdown="block">
 <div class="highlight"><pre><span></span><code><a id="__codelineno-20-1" name="__codelineno-20-1" href="#__codelineno-20-1"></a>perf09
 </code></pre></div>
-</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">يملأ قاعدة البيانات ويسترد النسخة الطويلة لجميع المنتجات حسب الاسم</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div markdown="block">
+</div></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><div style="margin:0 0 0.5em 0">يملأ قاعدة البيانات ويسترد النسخة الطويلة لجميع المنتجات حسب الاسم</div></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><div markdown="block">
 <div class="highlight"><pre><span></span><code><a id="__codelineno-21-1" name="__codelineno-21-1" href="#__codelineno-21-1"></a>2,643
 </code></pre></div>
-</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div markdown="block">
+</div></td></tr><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><div markdown="block">
 <div class="highlight"><pre><span></span><code><a id="__codelineno-22-1" name="__codelineno-22-1" href="#__codelineno-22-1"></a>perf10
 </code></pre></div>
-</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">يملأ قاعدة البيانات ويسترد النسخة المختصرة لجميع المنتجات باستخدام مفاتيحها الأساسية</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div markdown="block">
+</div></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><div style="margin:0 0 0.5em 0">يملأ قاعدة البيانات ويسترد النسخة المختصرة لجميع المنتجات باستخدام مفاتيحها الأساسية</div></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><div markdown="block">
 <div class="highlight"><pre><span></span><code><a id="__codelineno-23-1" name="__codelineno-23-1" href="#__codelineno-23-1"></a>3,463
 </code></pre></div>
-</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div markdown="block">
+</div></td></tr><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><div markdown="block">
 <div class="highlight"><pre><span></span><code><a id="__codelineno-24-1" name="__codelineno-24-1" href="#__codelineno-24-1"></a>perf11
 </code></pre></div>
-</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">يقوم بملء قاعدة البيانات واسترجاع النسخة الكاملة لجميع المنتجات باستخدام مفاتيحها الأساسية</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div markdown="block">
+</div></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><div style="margin:0 0 0.5em 0">يقوم بملء قاعدة البيانات واسترجاع النسخة الكاملة لجميع المنتجات باستخدام مفاتيحها الأساسية</div></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><div markdown="block">
 <div class="highlight"><pre><span></span><code><a id="__codelineno-25-1" name="__codelineno-25-1" href="#__codelineno-25-1"></a>2,777
 </code></pre></div>
-</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div markdown="block">
+</div></td></tr><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><div markdown="block">
 <div class="highlight"><pre><span></span><code><a id="__codelineno-26-1" name="__codelineno-26-1" href="#__codelineno-26-1"></a>perf12
 </code></pre></div>
-</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">يملأ قاعدة البيانات ثم يحذف جميع الفئات (وبالتالي المنتجات المرتبطة بها) واحدة تلو الأخرى عبر أسمائها</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div markdown="block">
+</div></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><div style="margin:0 0 0.5em 0">يملأ قاعدة البيانات ثم يحذف جميع الفئات (وبالتالي المنتجات المرتبطة بها) واحدة تلو الأخرى عبر أسمائها</div></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><div markdown="block">
 <div class="highlight"><pre><span></span><code><a id="__codelineno-27-1" name="__codelineno-27-1" href="#__codelineno-27-1"></a>3,806
 </code></pre></div>
-</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div markdown="block">
+</div></td></tr><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><div markdown="block">
 <div class="highlight"><pre><span></span><code><a id="__codelineno-28-1" name="__codelineno-28-1" href="#__codelineno-28-1"></a>perf13
 </code></pre></div>
-</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">يملأ قاعدة البيانات ثم يحذف جميع الفئات (والمنتجات المرتبطة بها) واحدة تلو الأخرى باستخدام أرقام <bdi dir="ltr" class="odt-ltr-term">SKU</bdi> الخاصة بها</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div markdown="block">
+</div></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><div style="margin:0 0 0.5em 0">يملأ قاعدة البيانات ثم يحذف جميع الفئات (والمنتجات المرتبطة بها) واحدة تلو الأخرى باستخدام أرقام <bdi dir="ltr" class="odt-ltr-term">SKU</bdi> الخاصة بها</div></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><div markdown="block">
 <div class="highlight"><pre><span></span><code><a id="__codelineno-29-1" name="__codelineno-29-1" href="#__codelineno-29-1"></a>2,828
 </code></pre></div>
-</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div markdown="block">
+</div></td></tr><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><div markdown="block">
 <div class="highlight"><pre><span></span><code><a id="__codelineno-30-1" name="__codelineno-30-1" href="#__codelineno-30-1"></a>perf14
 </code></pre></div>
-</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">يملأ قاعدة البيانات ويسترد النسخة المختصرة لجميع الفئات عبر أسمائها</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div markdown="block">
+</div></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><div style="margin:0 0 0.5em 0">يملأ قاعدة البيانات ويسترد النسخة المختصرة لجميع الفئات عبر أسمائها</div></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><div markdown="block">
 <div class="highlight"><pre><span></span><code><a id="__codelineno-31-1" name="__codelineno-31-1" href="#__codelineno-31-1"></a>2,731
 </code></pre></div>
-</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div markdown="block">
+</div></td></tr><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><div markdown="block">
 <div class="highlight"><pre><span></span><code><a id="__codelineno-32-1" name="__codelineno-32-1" href="#__codelineno-32-1"></a>perf15
 </code></pre></div>
-</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">يملأ قاعدة البيانات ويطلب النسخة الطويلة لجميع الفئات حسب الاسم</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div markdown="block">
+</div></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><div style="margin:0 0 0.5em 0">يملأ قاعدة البيانات ويطلب النسخة الطويلة لجميع الفئات حسب الاسم</div></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><div markdown="block">
 <div class="highlight"><pre><span></span><code><a id="__codelineno-33-1" name="__codelineno-33-1" href="#__codelineno-33-1"></a>2,603
 </code></pre></div>
-</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div markdown="block">
+</div></td></tr><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><div markdown="block">
 <div class="highlight"><pre><span></span><code><a id="__codelineno-34-1" name="__codelineno-34-1" href="#__codelineno-34-1"></a>perf16
 </code></pre></div>
-</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">يملأ قاعدة البيانات ويسترد النسخة المختصرة لجميع الفئات باستخدام مفاتيحها الأساسية</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div markdown="block">
+</div></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><div style="margin:0 0 0.5em 0">يملأ قاعدة البيانات ويسترد النسخة المختصرة لجميع الفئات باستخدام مفاتيحها الأساسية</div></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><div markdown="block">
 <div class="highlight"><pre><span></span><code><a id="__codelineno-35-1" name="__codelineno-35-1" href="#__codelineno-35-1"></a>2,462
 </code></pre></div>
-</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div markdown="block">
+</div></td></tr><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><div markdown="block">
 <div class="highlight"><pre><span></span><code><a id="__codelineno-36-1" name="__codelineno-36-1" href="#__codelineno-36-1"></a>perf17
 </code></pre></div>
-</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">يملأ قاعدة البيانات ويسترد النسخة الطويلة لجميع الفئات عبر مفاتيحها الأساسية</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div markdown="block">
+</div></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><div style="margin:0 0 0.5em 0">يملأ قاعدة البيانات ويسترد النسخة الطويلة لجميع الفئات عبر مفاتيحها الأساسية</div></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><div markdown="block">
 <div class="highlight"><pre><span></span><code><a id="__codelineno-37-1" name="__codelineno-37-1" href="#__codelineno-37-1"></a>3,287
 </code></pre></div>
 </div></td></tr></table>

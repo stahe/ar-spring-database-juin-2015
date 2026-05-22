@@ -1080,7 +1080,7 @@
 <p><a id="refheading2192282014630537"></a></p>
 <h1 id="5-spring-data-jpa">5. <span style="color: #365f91">مقدمة إلى <bdi dir="ltr" class="odt-ltr-term">Spring Data JPA</bdi></span></h1>
 <p>في هذا الفصل، سنقوم بفحص البنية التالية:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000004A6000000F211E97FF2.png" width="595" height="121" style="display:inline-block; margin:4px;width:15.743cm;height:3.201cm;" class="odt-zoomable" data-zoom-src="images/10000000000004A6000000F211E97FF2.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000004A6000000F211E97FF2.png" width="595" height="121" style="display:inline-block; margin:4px;width:15.743cm;height:3.201cm;" class="odt-zoomable" data-zoom-src="images/10000000000004A6000000F211E97FF2.png" /></td></tr></table>
 
 <p>نقوم بإدراج طبقة [<bdi dir="ltr" class="odt-ltr-term">JPA</bdi>] (واجهة برمجة تطبيقات الاستمرارية في <bdi dir="ltr" class="odt-ltr-term">Java</bdi>) بين طبقة [<bdi dir="ltr" class="odt-ltr-term">DAO</bdi>] ومحرك <bdi dir="ltr" class="odt-ltr-term">JDBC</bdi> الخاص بنظام إدارة قواعد البيانات (<bdi dir="ltr" class="odt-ltr-term">DBMS</bdi>). من الآن فصاعدًا، تقوم طبقة <bdi dir="ltr" class="odt-ltr-term">JPA</bdi> بإصدار أوامر <bdi dir="ltr" class="odt-ltr-term">SQL</bdi> الموجهة إلى نظام إدارة قواعد البيانات (<bdi dir="ltr" class="odt-ltr-term">DBMS</bdi>). لم تعد طبقة [<bdi dir="ltr" class="odt-ltr-term">DAO</bdi>] تتعامل مع أوامر <bdi dir="ltr" class="odt-ltr-term">SQL</bdi>، بل تتعامل فقط مع كائنات تسمى كيانات <bdi dir="ltr" class="odt-ltr-term">JPA</bdi>، وهي تمثيلات للجداول المختلفة في قاعدة البيانات المستخدمة. ترتبط حقول هذه الكيانات بشكل فريد بأعمدة الجدول عبر تعليقات <bdi dir="ltr" class="odt-ltr-term">Java.</bdi> وهذا ما يسمح لطبقة <bdi dir="ltr" class="odt-ltr-term">JPA</bdi> بترجمة عمليات طبقة [<bdi dir="ltr" class="odt-ltr-term">DAO</bdi>] على كيانات <bdi dir="ltr" class="odt-ltr-term">JPA</bdi> إلى لغة <bdi dir="ltr" class="odt-ltr-term">SQL.</bdi></p>
 <p><bdi dir="ltr" class="odt-ltr-term">Spring Data</bdi> هو فرع من <bdi dir="ltr" class="odt-ltr-term">Spring</bdi> يركز على الوصول إلى البيانات، سواء كانت البيانات مخزنة في نظام إدارة قواعد البيانات العلائقية (<bdi dir="ltr" class="odt-ltr-term">RDBMS</bdi>) أو قاعدة بيانات <bdi dir="ltr" class="odt-ltr-term">NoSQL</bdi> أو أنواع أخرى من التخزين. هنا، نحن مهتمون فقط بنظام إدارة قواعد البيانات العلائقية (<bdi dir="ltr" class="odt-ltr-term">RDBMS</bdi>) والوصول إليها عبر <bdi dir="ltr" class="odt-ltr-term">JPA.</bdi> في وقت لاحق، سنكتب أحيانًا [<bdi dir="ltr" class="odt-ltr-term">Spring JPA</bdi>] للإشارة فعليًا إلى [<bdi dir="ltr" class="odt-ltr-term">Spring Data JPA</bdi>]. في البنية أعلاه، تزود طبقة [<bdi dir="ltr" class="odt-ltr-term">Spring Data</bdi>] طبقة [<bdi dir="ltr" class="odt-ltr-term">DAO</bdi>] بأدوات لإدارة كيانات <bdi dir="ltr" class="odt-ltr-term">JPA.</bdi></p>
@@ -1097,14 +1097,14 @@
 <p><a id="refheading2192302014630537"></a></p>
 <h2 id="51-01">5.1. <span style="color: #4f81bd">مثال-01</span></h2>
 <p>يقدم موقع <bdi dir="ltr" class="odt-ltr-term">Spring</bdi> الإلكتروني العديد من الدروس التعليمية للبدء في استخدام <bdi dir="ltr" class="odt-ltr-term">Spring</bdi> [<a href="http://spring.io/guides"><u><span style="color: #0563c1"><bdi dir="ltr" class="odt-ltr-term">http://spring.io/guides</bdi></span></u></a>]. سنستخدم إحداها لتقديم <bdi dir="ltr" class="odt-ltr-term">Spring Data.</bdi> ولهذا الغرض، سنستخدم <bdi dir="ltr" class="odt-ltr-term">Spring Tool Suite</bdi> (<bdi dir="ltr" class="odt-ltr-term">STS</bdi>).</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000003840000014438DE608A.png" width="450" height="162" style="display:inline-block; margin:4px;width:11.906cm;height:4.286cm;" class="odt-zoomable" data-zoom-src="images/10000000000003840000014438DE608A.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000003840000014438DE608A.png" width="450" height="162" style="display:inline-block; margin:4px;width:11.906cm;height:4.286cm;" class="odt-zoomable" data-zoom-src="images/10000000000003840000014438DE608A.png" /></td></tr></table>
 
 <ul>
   <li>في [1]، نقوم باستيراد أحد البرامج التعليمية من [<bdi dir="ltr" class="odt-ltr-term">spring.io/guides</bdi>]؛
   </li>
 </ul>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000004C4000002C96B0B451C.png" width="610" height="357" style="display:inline-block; margin:4px;width:16.14cm;height:9.433cm;" class="odt-zoomable" data-zoom-src="images/10000000000004C4000002C96B0B451C.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000004C4000002C96B0B451C.png" width="610" height="357" style="display:inline-block; margin:4px;width:16.14cm;height:9.433cm;" class="odt-zoomable" data-zoom-src="images/10000000000004C4000002C96B0B451C.png" /></td></tr></table>
 
 <ul>
   <li>في [2]، نختار البرنامج التعليمي [<bdi dir="ltr" class="odt-ltr-term">Accessing Data Jpa</bdi>]، الذي يوضح كيفية الوصول إلى قاعدة البيانات باستخدام <bdi dir="ltr" class="odt-ltr-term">Spring Data</bdi>؛
@@ -1162,7 +1162,7 @@
 </ul>
 
 <p>دعونا نلقي نظرة على الفئات التي توفرها هذه التبعيات:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000014F00000173C684B02E.png" width="212" height="235" style="display:inline-block; margin:4px;width:5.609cm;height:6.212cm;" class="odt-zoomable" data-zoom-src="images/100000000000014F00000173C684B02E.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000000F70000010C4CA71FE9.png" width="173" height="187" style="display:inline-block; margin:4px;width:4.57cm;height:4.958cm;" class="odt-zoomable" data-zoom-src="images/10000000000000F70000010C4CA71FE9.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/1000000000000114000000BD1D144A05.png" width="193" height="132" style="display:inline-block; margin:4px;width:5.11cm;height:3.5cm;" class="odt-zoomable" data-zoom-src="images/1000000000000114000000BD1D144A05.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000014F00000173C684B02E.png" width="212" height="235" style="display:inline-block; margin:4px;width:5.609cm;height:6.212cm;" class="odt-zoomable" data-zoom-src="images/100000000000014F00000173C684B02E.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000000F70000010C4CA71FE9.png" width="173" height="187" style="display:inline-block; margin:4px;width:4.57cm;height:4.958cm;" class="odt-zoomable" data-zoom-src="images/10000000000000F70000010C4CA71FE9.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/1000000000000114000000BD1D144A05.png" width="193" height="132" style="display:inline-block; margin:4px;width:5.11cm;height:3.5cm;" class="odt-zoomable" data-zoom-src="images/1000000000000114000000BD1D144A05.png" /></td></tr></table>
 
 <p>هناك العديد منها:</p>
 <ul>
@@ -1201,10 +1201,10 @@
 <p><a id="refheading2192342014630537"></a></p>
 <h3 id="512-jpa">5.1.2. <span style="color: #4f81bd">طبقة [<bdi dir="ltr" class="odt-ltr-term">JPA</bdi>]</span></h3>
 <p><a id="refheading1622691200878134"></a>يتم التعامل مع الوصول إلى قاعدة البيانات من خلال طبقة [<bdi dir="ltr" class="odt-ltr-term">JPA</bdi>]، وهي واجهة برمجة تطبيقات <bdi dir="ltr" class="odt-ltr-term">Java Persistence:</bdi></p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000042C0000011122622671.png" width="534" height="137" style="display:inline-block; margin:4px;width:14.129cm;height:3.612cm;" class="odt-zoomable" data-zoom-src="images/100000000000042C0000011122622671.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000042C0000011122622671.png" width="534" height="137" style="display:inline-block; margin:4px;width:14.129cm;height:3.612cm;" class="odt-zoomable" data-zoom-src="images/100000000000042C0000011122622671.png" /></td></tr></table>
 
 <p><a id="refheading569871429907001"></a></p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000000EB00000077D50ECFCE.png" width="164" height="83" style="display:inline-block; margin:4px;width:4.35cm;height:2.203cm;" class="odt-zoomable" data-zoom-src="images/10000000000000EB00000077D50ECFCE.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000000EB00000077D50ECFCE.png" width="164" height="83" style="display:inline-block; margin:4px;width:4.35cm;height:2.203cm;" class="odt-zoomable" data-zoom-src="images/10000000000000EB00000077D50ECFCE.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
 
 <p>التطبيق بسيط ويقوم بإدارة كيانات [<bdi dir="ltr" class="odt-ltr-term">Customer</bdi>]. فئة [<bdi dir="ltr" class="odt-ltr-term">Customer</bdi>] هي جزء من طبقة [<bdi dir="ltr" class="odt-ltr-term">JPA</bdi>] وهي كما يلي:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-java">
@@ -1252,7 +1252,7 @@
 <ul>
   <li>سيتم تسمية جدول [<bdi dir="ltr" class="odt-ltr-term">Customer</bdi>] على اسم الفئة، أي [<bdi dir="ltr" class="odt-ltr-term">Customer</bdi>]؛
   </li>
-  <li>سيتم تسمية أعمدة هذا الجدول على اسم حقول الفئة: [id, <bdi dir="ltr" class="odt-ltr-term">firstName</bdi>, <bdi dir="ltr" class="odt-ltr-term">lastName</bdi>]، مع ملاحظة أن حالة الأحرف لا تؤخذ في الاعتبار في أسماء أعمدة الجدول؛
+  <li>سيتم تسمية أعمدة هذا الجدول على اسم حقول الفئة: [<bdi dir="ltr" class="odt-ltr-term">id, firstName, lastName</bdi>]، مع ملاحظة أن حالة الأحرف لا تؤخذ في الاعتبار في أسماء أعمدة الجدول؛
   </li>
 </ul>
 
@@ -1260,9 +1260,9 @@
 <p><a id="refheading2192362014630537"></a></p>
 <h3 id="513-spring-data">5.1.3. <span style="color: #4f81bd">طبقة [<bdi dir="ltr" class="odt-ltr-term">Spring Data</bdi>]</span></h3>
 <p><a id="refheading1622711200878134"></a>تنفذ فئة [<bdi dir="ltr" class="odt-ltr-term">CustomerRepository</bdi>] طبقة الوصول لجدول [<bdi dir="ltr" class="odt-ltr-term">Customer</bdi>]. وفيما يلي كودها:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000004370000010E4AFAC61B.png" width="540" height="135" style="display:inline-block; margin:4px;width:14.275cm;height:3.572cm;" class="odt-zoomable" data-zoom-src="images/10000000000004370000010E4AFAC61B.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000004370000010E4AFAC61B.png" width="540" height="135" style="display:inline-block; margin:4px;width:14.275cm;height:3.572cm;" class="odt-zoomable" data-zoom-src="images/10000000000004370000010E4AFAC61B.png" /></td></tr></table>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000000EB00000077BA57F747.png" width="164" height="83" style="display:inline-block; margin:4px;width:4.35cm;height:2.203cm;" class="odt-zoomable" data-zoom-src="images/10000000000000EB00000077BA57F747.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000000EB00000077BA57F747.png" width="164" height="83" style="display:inline-block; margin:4px;width:4.35cm;height:2.203cm;" class="odt-zoomable" data-zoom-src="images/10000000000000EB00000077BA57F747.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
 
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-java">
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">package</span><span style="color:#000000"> hello;</span></span></span>
@@ -1367,10 +1367,10 @@
 <p>في الختام، في الحالات البسيطة، يسمح لنا <bdi dir="ltr" class="odt-ltr-term">Spring Data</bdi> بتنفيذ طبقة [<bdi dir="ltr" class="odt-ltr-term">DAO</bdi>] بواجهة بسيطة.</p>
 <p><a id="refheading2192382014630537"></a></p>
 <h3 id="514-console">5.1.4. <span style="color: #4f81bd">طبقة [<bdi dir="ltr" class="odt-ltr-term">console</bdi>]</span></h3>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000004370000010DF24DDE9A.png" width="540" height="135" style="display:inline-block; margin:4px;width:14.275cm;height:3.56cm;" class="odt-zoomable" data-zoom-src="images/10000000000004370000010DF24DDE9A.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000004370000010DF24DDE9A.png" width="540" height="135" style="display:inline-block; margin:4px;width:14.275cm;height:3.56cm;" class="odt-zoomable" data-zoom-src="images/10000000000004370000010DF24DDE9A.png" /></td></tr></table>
 
 <p><a id="refheading569911429907001"></a></p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000000EB00000077E52D8FD9.png" width="164" height="83" style="display:inline-block; margin:4px;width:4.35cm;height:2.203cm;" class="odt-zoomable" data-zoom-src="images/10000000000000EB00000077E52D8FD9.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000000EB00000077E52D8FD9.png" width="164" height="83" style="display:inline-block; margin:4px;width:4.35cm;height:2.203cm;" class="odt-zoomable" data-zoom-src="images/10000000000000EB00000077E52D8FD9.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
 
 <p>فئة [<bdi dir="ltr" class="odt-ltr-term">Application</bdi>] هي كما يلي:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-java">
@@ -1568,7 +1568,7 @@
 <h3 id="515-spring-data">5.1.5. <span style="color: #4f81bd">التكوين اليدوي لمشروع <bdi dir="ltr" class="odt-ltr-term">Spring Data</bdi></span></h3>
 <p><a id="refheading1622751200878134"></a>نقوم بنسخ المشروع السابق إلى مشروع [<bdi dir="ltr" class="odt-ltr-term">gs-accessing-data-jpa-02</bdi>]:</p>
 <p><a id="refheading569931429907001"></a></p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000000F80000015BACE9B961.png" width="173" height="243" style="display:inline-block; margin:4px;width:4.59cm;height:6.422cm;" class="odt-zoomable" data-zoom-src="images/10000000000000F80000015BACE9B961.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000000F80000015BACE9B961.png" width="173" height="243" style="display:inline-block; margin:4px;width:4.59cm;height:6.422cm;" class="odt-zoomable" data-zoom-src="images/10000000000000F80000015BACE9B961.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
 
 <p>في هذا المشروع الجديد، لن نعتمد على التكوين التلقائي الذي يوفره <bdi dir="ltr" class="odt-ltr-term">Spring Boot.</bdi> سنقوم بتكوينه يدويًا. قد يكون هذا مفيدًا إذا كانت التكوينات الافتراضية لا تناسب احتياجاتنا.</p>
 <p>أولاً، سنحدد التبعيات الضرورية في ملف [<bdi dir="ltr" class="odt-ltr-term">pom.xml</bdi>]:</p>
@@ -1671,7 +1671,7 @@
   </li>
 </ul>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000000E80000009FB5A3B942.png" width="163" height="111" style="display:inline-block; margin:4px;width:4.3cm;height:2.947cm;" class="odt-zoomable" data-zoom-src="images/10000000000000E80000009FB5A3B942.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000000E80000009FB5A3B942.png" width="163" height="111" style="display:inline-block; margin:4px;width:4.3cm;height:2.947cm;" class="odt-zoomable" data-zoom-src="images/10000000000000E80000009FB5A3B942.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
 
 <p>أصبحت فئة [<bdi dir="ltr" class="odt-ltr-term">Application</bdi>] القابلة للتنفيذ كما يلي:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-java">
@@ -1825,12 +1825,12 @@
 
 <p>يمكن تعريف الطرق السابقة بأي ترتيب.</p>
 <p>يؤدي تشغيل المشروع إلى نفس النتائج. يظهر ملف جديد في مجلد المشروع، وهو ملف قاعدة بيانات <bdi dir="ltr" class="odt-ltr-term">H2:</bdi></p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000000F1000000D6F0EB16BE.png" width="169" height="150" style="display:inline-block; margin:4px;width:4.461cm;height:3.962cm;" class="odt-zoomable" data-zoom-src="images/10000000000000F1000000D6F0EB16BE.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000000F1000000D6F0EB16BE.png" width="169" height="150" style="display:inline-block; margin:4px;width:4.461cm;height:3.962cm;" class="odt-zoomable" data-zoom-src="images/10000000000000F1000000D6F0EB16BE.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
 
 <p><a id="refheading2192402014630537"></a></p>
 <h3 id="516">5.1.6. <span style="color: #4f81bd">إنشاء أرشيف قابل للتنفيذ</span></h3>
 <p><a id="refheading1622771200878134"></a>لإنشاء أرشيف قابل للتنفيذ للمشروع، اتبع الخطوات التالية:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000005250000015D1252AADA.png" width="659" height="175" style="display:inline-block; margin:4px;width:17.424cm;height:4.618cm;" class="odt-zoomable" data-zoom-src="images/10000000000005250000015D1252AADA.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000005250000015D1252AADA.png" width="659" height="175" style="display:inline-block; margin:4px;width:17.424cm;height:4.618cm;" class="odt-zoomable" data-zoom-src="images/10000000000005250000015D1252AADA.png" /></td></tr></table>
 
 <p><a id="refheading569951429907001"></a></p>
 <ul>
@@ -1846,7 +1846,7 @@
   </li>
 </ul>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000005200000027E5FBF588A.png" width="656" height="319" style="display:inline-block; margin:4px;width:17.357cm;height:8.44cm;" class="odt-zoomable" data-zoom-src="images/10000000000005200000027E5FBF588A.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000005200000027E5FBF588A.png" width="656" height="319" style="display:inline-block; margin:4px;width:17.357cm;height:8.44cm;" class="odt-zoomable" data-zoom-src="images/10000000000005200000027E5FBF588A.png" /></td></tr></table>
 
 <ul>
   <li>في [6]: تصدير المشروع؛
@@ -1859,7 +1859,7 @@
   </li>
 </ul>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0"><b>10</b></div><img src="images/10000000000000F8000000FEA403558A.png" width="173" height="178" style="display:inline-block; margin:4px;width:4.59cm;height:4.701cm;" class="odt-zoomable" data-zoom-src="images/10000000000000F8000000FEA403558A.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><div style="margin:0 0 0.5em 0"><b>10</b></div><img src="images/10000000000000F8000000FEA403558A.png" width="173" height="178" style="display:inline-block; margin:4px;width:4.59cm;height:4.701cm;" class="odt-zoomable" data-zoom-src="images/10000000000000F8000000FEA403558A.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
 
 <ul>
   <li>في [10]، الأرشيف الذي تم إنشاؤه؛
@@ -1977,7 +1977,7 @@
 <p><a id="refheading2192462014630537"></a></p>
 <h3 id="517-spring-data">5.1.7. <span style="color: #4f81bd">إنشاء مشروع [<bdi dir="ltr" class="odt-ltr-term">Spring Data</bdi>]</span></h3>
 <p><a id="refheading1622791200878134"></a>لإنشاء قالب مشروع <bdi dir="ltr" class="odt-ltr-term">Spring Data</bdi>، اتبع الخطوات التالية:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000004C70000033133B70DDC.png" width="612" height="409" style="display:inline-block; margin:4px;width:16.18cm;height:10.809cm;" class="odt-zoomable" data-zoom-src="images/10000000000004C70000033133B70DDC.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000004C70000033133B70DDC.png" width="612" height="409" style="display:inline-block; margin:4px;width:16.18cm;height:10.809cm;" class="odt-zoomable" data-zoom-src="images/10000000000004C70000033133B70DDC.png" /></td></tr></table>
 
 <p><a id="refheading569971429907001"></a></p>
 <ul>
@@ -1995,7 +1995,7 @@
   </li>
 </ul>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000002F900000314D27B74C7.png" width="381" height="394" style="display:inline-block; margin:4px;width:10.068cm;height:10.425cm;" class="odt-zoomable" data-zoom-src="images/10000000000002F900000314D27B74C7.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000002F900000314D27B74C7.png" width="381" height="394" style="display:inline-block; margin:4px;width:10.068cm;height:10.425cm;" class="odt-zoomable" data-zoom-src="images/10000000000002F900000314D27B74C7.png" /></td></tr></table>
 
 <ul>
   <li>في [8]، أدخل اسم مجلد المشروع؛
@@ -2004,7 +2004,7 @@
   </li>
 </ul>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000021400000160EFCDCF7B.png" width="266" height="176" style="display:inline-block; margin:4px;width:7.038cm;height:4.657cm;" class="odt-zoomable" data-zoom-src="images/100000000000021400000160EFCDCF7B.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000021400000160EFCDCF7B.png" width="266" height="176" style="display:inline-block; margin:4px;width:7.038cm;height:4.657cm;" class="odt-zoomable" data-zoom-src="images/100000000000021400000160EFCDCF7B.png" /></td></tr></table>
 
 <ul>
   <li>في [10]: المشروع الذي تم إنشاؤه؛
